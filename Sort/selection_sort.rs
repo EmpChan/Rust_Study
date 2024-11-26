@@ -11,3 +11,8 @@ fn selection_sort(mut arr :Vec<i32> ) -> Vec<i32>{
     arr
 }
 
+fn main() {
+    let mut arr = vec![5,4,3,2,1];
+    arr = selection_sort(arr);
+    println!("{:?}",arr);
+}
